@@ -1,0 +1,304 @@
+body {
+  background: black;
+  font-family: sans-serif;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: "Nosifer";
+
+  font-size: 130px;
+  opacity: 0.3;
+}
+body {
+  background-image: url("https://i.gifer.com/1KFt.gif");
+
+  z-index: -1;
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: n0-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.ghost-animation {
+  animation: ghostFrames ease-in-out 7s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0%;
+  -webkit-animation: ghostFrames ease-in-out 7s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 100% 0%;
+  -moz-animation: ghostFrames ease-in-out 7s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 100% 0%;
+  -o-animation: ghostFrames ease-in-out 7s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 100% 0%;
+  -ms-animation: ghostFrames ease-in-out 7s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 100% 0%;
+}
+
+@keyframes ghostFrames {
+  0% {
+    transform: translate(-296px, 140px) rotate(0deg);
+  }
+  100% {
+    transform: translate(254px, -240px) rotate(23deg);
+  }
+}
+
+@-moz-keyframes ghostFrames {
+  0% {
+    -moz-transform: translate(-296px, 140px) rotate(0deg);
+  }
+  100% {
+    -moz-transform: translate(254px, -240px) rotate(23deg);
+  }
+}
+
+@-webkit-keyframes ghostFrames {
+  0% {
+    -webkit-transform: translate(-296px, 140px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(254px, -240px) rotate(23deg);
+  }
+}
+
+@-o-keyframes ghostFrames {
+  0% {
+    -o-transform: translate(-296px, 140px) rotate(0deg);
+  }
+  100% {
+    -o-transform: translate(254px, -240px) rotate(23deg);
+  }
+}
+
+@-ms-keyframes ghostFrames {
+  0% {
+    -ms-transform: translate(-296px, 140px) rotate(0deg);
+  }
+  100% {
+    -ms-transform: translate(254px, -240px) rotate(23deg);
+  }
+}
+
+/*animation 2 ghost  */
+.ghost2-animation {
+  animation: ghostFrames2 ease-in-out 17s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-fill-mode: forwards; /*when the spec is finished*/
+  -webkit-animation: ghostFrames2 ease-in-out 17s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode: forwards; /*Chrome 16+, Safari 4+*/
+  -moz-animation: ghostFrames2 ease-in-out 17s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode: forwards; /*FF 5+*/
+  -o-animation: ghostFrames2 ease-in-out 17s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode: forwards; /*Not implemented yet*/
+  -ms-animation: ghostFrames2 ease-in-out 17s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode: forwards; /*IE 10+*/
+}
+
+@keyframes ghostFrames2 {
+  0% {
+    transform: translate(-16px, 343px);
+  }
+  100% {
+    transform: translate(27px, -320px);
+  }
+}
+
+@-moz-keyframes ghostFrames2 {
+  0% {
+    -moz-transform: translate(-16px, 343px);
+  }
+  100% {
+    -moz-transform: translate(27px, -320px);
+  }
+}
+
+@-webkit-keyframes ghostFrames2 {
+  0% {
+    -webkit-transform: translate(-16px, 343px);
+  }
+  100% {
+    -webkit-transform: translate(27px, -320px);
+  }
+}
+
+@-o-keyframes ghostFrames2 {
+  0% {
+    -o-transform: translate(-16px, 343px);
+  }
+  100% {
+    -o-transform: translate(27px, -320px);
+  }
+}
+
+@-ms-keyframes ghostFrames2 {
+  0% {
+    -ms-transform: translate(-16px, 343px);
+  }
+  100% {
+    -ms-transform: translate(27px, -320px);
+  }
+}
+
+/* ghost 3  */
+.ghost3-animation {
+  animation: ghostFrames3 ease 30s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-fill-mode: forwards; /*when the spec is finished*/
+  -webkit-animation: ghostFrames3 ease 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode: forwards; /*Chrome 16+, Safari 4+*/
+  -moz-animation: ghostFrames3 ease 30s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode: forwards; /*FF 5+*/
+  -o-animation: ghostFrames3 ease 30s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode: forwards; /*Not implemented yet*/
+  -ms-animation: ghostFrames3 ease 30s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode: forwards; /*IE 10+*/
+}
+
+@keyframes ghostFrames3 {
+  0% {
+    transform: translate(-64px, 419px) rotate(0deg) scaleX(3.52) scaleY(3.26);
+  }
+  100% {
+    transform: translate(196px, -347px) rotate(372deg) scaleX(3.52) scaleY(3.26);
+  }
+}
+
+@-moz-keyframes ghostFrames3 {
+  0% {
+    -moz-transform: translate(-64px, 419px) rotate(0deg) scaleX(3.52)
+      scaleY(3.26);
+  }
+  100% {
+    -moz-transform: translate(196px, -347px) rotate(372deg) scaleX(3.52)
+      scaleY(3.26);
+  }
+}
+
+@-webkit-keyframes ghostFrames3 {
+  0% {
+    -webkit-transform: translate(-64px, 419px) rotate(0deg) scaleX(3.52)
+      scaleY(3.26);
+  }
+  100% {
+    -webkit-transform: translate(196px, -347px) rotate(372deg) scaleX(3.52)
+      scaleY(3.26);
+  }
+}
+
+@-o-keyframes ghostFrames3 {
+  0% {
+    -o-transform: translate(-64px, 419px) rotate(0deg) scaleX(3.52) scaleY(3.26);
+  }
+  100% {
+    -o-transform: translate(196px, -347px) rotate(372deg) scaleX(3.52)
+      scaleY(3.26);
+  }
+}
+
+@-ms-keyframes ghostFrames3 {
+  0% {
+    -ms-transform: translate(-64px, 419px) rotate(0deg) scaleX(3.52)
+      scaleY(3.26);
+  }
+  100% {
+    -ms-transform: translate(196px, -347px) rotate(372deg) scaleX(3.52)
+      scaleY(3.26);
+  }
+}
+/* ghost 4 */
+.ghost4-animation {
+  animation: ghostFrames4 ease 40s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-fill-mode: forwards; /*when the spec is finished*/
+  -webkit-animation: ghostFrames4 ease 40s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode: forwards; /*Chrome 16+, Safari 4+*/
+  -moz-animation: ghostFrames4 ease 40s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode: forwards; /*FF 5+*/
+  -o-animation: ghostFrames4 ease 40s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode: forwards; /*Not implemented yet*/
+  -ms-animation: ghostFrames4 ease 40s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode: forwards; /*IE 10+*/
+}
+
+@keyframes ghostFrames4 {
+  0% {
+    transform: translate(1399px, 541px) rotate(7deg);
+  }
+  100% {
+    transform: translate(-652px, -361px) rotate(7deg);
+  }
+}
+
+@-moz-keyframes ghostFrames4 {
+  0% {
+    -moz-transform: translate(1399px, 541px) rotate(7deg);
+  }
+  100% {
+    -moz-transform: translate(-652px, -361px) rotate(7deg);
+  }
+}
+
+@-webkit-keyframes ghostFrames4 {
+  0% {
+    -webkit-transform: translate(1399px, 541px) rotate(7deg);
+  }
+  100% {
+    -webkit-transform: translate(-652px, -361px) rotate(7deg);
+  }
+}
+
+@-o-keyframes ghostFrames4 {
+  0% {
+    -o-transform: translate(1399px, 541px) rotate(7deg);
+  }
+  100% {
+    -o-transform: translate(-652px, -361px) rotate(7deg);
+  }
+}
+
+@-ms-keyframes ghostFrames4 {
+  0% {
+    -ms-transform: translate(1399px, 541px) rotate(7deg);
+  }
+  100% {
+    -ms-transform: translate(-652px, -361px) rotate(7deg);
+  }
+}
