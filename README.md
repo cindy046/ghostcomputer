@@ -1,0 +1,2 @@
+# ghostcomputer
+GHOST TYPING  LOOP :  ITYPED SCRIPT HTML /CSS 
