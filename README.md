@@ -12,6 +12,6 @@ Started as a fun codepen.io challenge project
 https://codepen.io/cindy046/pen/PLbBjj
 
 
- ![](https://gfycat.com/happygoluckyshamelessbarnacle)
+ ![](https://thumbs.gfycat.com/HappygoluckyShamelessBarnacle-size_restricted.gif)
 
- ![](https://thumbs.gfycat.com/PotableFlippantArachnid-size_restricted.gif)
+
