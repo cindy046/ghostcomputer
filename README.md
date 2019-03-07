@@ -11,4 +11,7 @@ https://cindy046.github.io/ghostcomputer/
 Started as a fun codepen.io challenge project
 https://codepen.io/cindy046/pen/PLbBjj
 
-![](https://gfycat.com/happygoluckyshamelessbarnacle)
+
+ ![](https://gfycat.com/happygoluckyshamelessbarnacle)
+
+ ![](https://thumbs.gfycat.com/PotableFlippantArachnid-size_restricted.gif)
